@@ -1,4 +1,3 @@
 # telegraph
 
-A command line for sending messages.
-
+A command line tool for sending messages.
