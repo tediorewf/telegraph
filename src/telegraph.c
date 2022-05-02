@@ -30,7 +30,7 @@ void* receive_message(void* args) {
     addr.sin_port = args_ptr->sin_port;
     addr.sin_addr = args_ptr->sin_addr;
 
-    int addr_len = sizeof(args_ptr);
+    int addr_len = sizeof(addr);
 
     while (1) {
         char received_data[1024];
